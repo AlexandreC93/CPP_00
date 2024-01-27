@@ -21,7 +21,7 @@ int main(void) {
         else if (input[0] == 0)
             continue;
         else
-            std::cout << "Please, enter a command: ADD, SEARCH, EXIT" << std::endl;
+            std::cout << "Commands: ADD, SEARCH, EXIT" << std::endl;
     std::cin.clear();
     } while (true);
     return 0;

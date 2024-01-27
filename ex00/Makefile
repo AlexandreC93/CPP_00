@@ -9,15 +9,15 @@ all: $(NAME)
 $(NAME): 
 	@printf "Compiling $(NAME)\n"
 	@ $(CC) $(FLAGS) megaphone.cpp -o $(NAME)
-	@printf "Exec ready\n$(RESET)"
+	@printf "Exec ready\n"
 
 clean:
 	@$(RM) $(NAME)
-	@printf "Executable removed\n"
+	@printf "Exec removed\n"
 
 fclean:
 	@$(RM) $(NAME)
-	@printf "Executable removed\n"
+	@printf "Exec removed\n"
 
 re: clean all
 
